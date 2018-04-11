@@ -13,6 +13,9 @@ exports.show = function(req, res) {
 exports.new = function(req, res) {
     res.render('posts/new');
 };
+exports.company = function(req, res) {
+    res.render('company');
+};
 exports.edit = function(req, res) {
     res.render('posts/edit', {post: posts[req.params.id], id: req.params.id});
 };

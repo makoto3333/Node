@@ -27,6 +27,7 @@ app.use( methodOverride(function(req, res){
 //routing
 
 app.get('/', post.index);
+app.get('/company', post.company);
 app.get('/posts/:id([0-9]+)', post.show);
 app.get('/posts/new', post.new);
 app.post('/posts/create', post.create);
