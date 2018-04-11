@@ -1,0 +1,7 @@
+{
+  "article": [
+		{"title": "article0", "body": "body0"},
+ 		{"title": "article1", "body": "body1"},
+		{"title": "article2", "body": "body2"}
+		]
+}
