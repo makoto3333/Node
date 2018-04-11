@@ -28,6 +28,10 @@ app.use( methodOverride(function(req, res){
 
 app.get('/', post.index);
 app.get('/company', post.company);
+app.get('/workFlow', post.workFlow);
+app.get('/contact', post.contact);
+app.get('/recruit', post.recruit);
+app.get('/bbs', post.bbs);
 app.get('/posts/:id([0-9]+)', post.show);
 app.get('/posts/new', post.new);
 app.post('/posts/create', post.create);
