@@ -1,0 +1,66 @@
+<% include header %>
+
+
+<script type="text/javascript" src="/javascripts/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/javascripts/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<link href="/javascripts/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+<section>		   
+	<div  class="row indexnavbar navbar-dark bg-dark ">
+		<ul class="nav nav-tabs col-12 nav-justified">
+			<li class="nav-item"><a href="#home" class="nav-link active " >Home<link rel=" icon" href="images/profile.jpeg">
+</a></li>
+			<li class="nav-item"><a href="#profile" class="nav-link" >Profile</a></li>
+			<li class="nav-item"><a href="#works" class="nav-link" >Works</a></li>
+			<li class="nav-item"><a href="#contact" class="nav-link" >Contact</a></li>
+		</ul>
+	</div>
+</section>
+
+<div class="l-main">
+	<div id="profile">
+       <div class="section l-constrained">
+			<div class="section-title">Profile</div>
+			<div class="section-content clearfix">
+				<div class="profile-icon pull-left">
+					<img src="images/selfImage.jpeg" class="icon-large" alt="">
+				</div>
+				<div class="profile-content pull-left">
+					<div class="subsection">
+						   <h1>自己紹介</h1>
+							   はじめまして。私は佐藤真(<a href="https://github.com/makoto3333">@makoto3333</a>)と申します。<br />
+							   大学生からプログラミングを学び始め、今は主にWeb系のことをやっています。<br />
+							   言語はJavaScriptを使用することが多いですが、PHPも勉強中です。<br />
+							   フリーランスを目指して日々奮闘中です。
+					</div> 
+					<div class="subsection">
+						<h1>よく使用する技術 &amp; ソフトウェア</h1>
+						<ul class ="tech clerfix">
+							<li class="pull-left"><img src="images/javascript.jpeg" alt=""></li>
+							<li class="pull-left"><img src="images/node.jpeg" alt=""></li>
+							<li class="pull-left"><img src="images/jquery.jpeg" alt=""></li>
+							<li class="pull-left"><img src="images/bootstrap.jpeg" alt=""></li>
+				       </ul>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="works">	
+       <div class="section l-constrained">
+			<div class="section-title">works</div>
+		</div>
+	</div>
+	<div id="contact">	
+       <div class="section l-constrained">
+			<div class="section-title">contact</div>
+			<div class="section-content clearfix">
+				<div class="subsection">
+					<imput type="text" class="text-email" value="makoto.sato.climer@gmail.com" readonly="readonly">
+				</div>
+			</div>
+		</div>
+	</div>
+<div>
+<% include footer %>

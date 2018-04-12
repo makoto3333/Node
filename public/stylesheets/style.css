@@ -4,11 +4,15 @@ p{
 .li{
   color:#ccc
 }
+.overView{
 
-body {
-  background-image: url(images/bg.jpg);
+	text-align:center;
+	font-size:60px;
+}
+#header {
+  background-image: url(images/head.jpg);
 
-  background-position: center center;
+  background-position: left top;
 
   background-repeat: no-repeat;
 
@@ -17,7 +21,10 @@ body {
   background-size: cover;
 
   background-color: #464646;
-}    
+
+  height:240px;
+
+} 
 
 	.nav-justified {
 	  position: relative;
@@ -36,7 +43,6 @@ body {
 
 
 .footer {
-  position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
@@ -49,8 +55,8 @@ body {
   text-align: right;
 }
 .nav-item{
-border-left: 1px outset rgb(255, 255, 255);t
-ext-align: center;
+border-left: 1px outset rgb(255, 255, 255);
+text-align: center;
 font-size:30px;
 }
 body {
@@ -76,3 +82,80 @@ body {
 	height:70px;
 	text-align:center;
 }
+
+.separator-white {
+    height:1px;
+    width:30px;
+    margin: 20px auto 60px ;
+    background-color: #fff;
+}
+.pull-left {
+    float: left;
+    box-sizing: border-box;
+}
+.pull-right {
+    float: right;
+    box-sizing: border-box;
+}
+img.icon-large {
+    width:230px;
+    border-radius: 80%;
+}.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+ul.tech {
+    list-style: none;
+}input.text-email {
+    background-color:#666;
+    border:solid #101010 1px;
+    border-radius:3px;
+    width:550px;
+    color:#fff;
+    font-size: 40px;
+    text-align: center;
+    padding:16px 0px;
+    outline:none;
+}
+ul.tech > li {
+    padding-right:24px;
+    padding-bottom:16px;
+}
+
+ul.tech li img {
+    height:80px;
+}.profile-content {
+    width:72%;
+    padding:0px 8px;
+    line-height: 180%;
+}
+.section-contact {
+    padding:34px 0px 80px 0px;
+    color:#fff;
+    background-color: #232323;
+}
+.section-contact .section-content{
+    text-align: center;
+}.subsection{
+    margin-bottom:32px;
+}.l-constrained {
+    width:880px;
+    margin: 0 auto;
+}.section {
+    margin-top:40px;
+}.section-content h1 {
+    font-size: 36px;
+    padding:8px 0px 24px 0px;
+}.section-title {
+    text-align: center;
+    font-size:50px;
+}.section-title:after {
+    content: "";
+    display: block;
+    width:30px;
+    height:1px;
+    background-color:#ccc;
+    margin:30px auto;
+}
+
