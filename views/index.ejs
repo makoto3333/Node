@@ -4,11 +4,12 @@
 <script type="text/javascript" src="/javascripts/lib/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="/javascripts/lib/bootstrap/dist/js/bootstrap.min.js"></script>
 <link href="/javascripts/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/javascripts/app/index.js"></script>
 
 <section>		   
-	<div  class="row indexnavbar navbar-dark bg-dark ">
+	<div  id="home"class="row indexnavbar navbar-dark bg-dark ">
 		<ul class="nav nav-tabs col-12 nav-justified">
-			<li class="nav-item"><a href="#home" class="nav-link active " >Home<link rel=" icon" href="images/profile.jpeg">
+			<li class="nav-item"><a href="#home" class="nav-link" >Home<link rel=" icon" href="/images/home.jpeg">
 </a></li>
 			<li class="nav-item"><a href="#profile" class="nav-link" >Profile</a></li>
 			<li class="nav-item"><a href="#works" class="nav-link" >Works</a></li>
@@ -23,7 +24,7 @@
 			<div class="section-title">Profile</div>
 			<div class="section-content clearfix">
 				<div class="profile-icon pull-left">
-					<img src="images/selfImage.jpeg" class="icon-large" alt="">
+					<img id="gaermg" src="images/selfImage.jpeg" class="icon-large" alt="">
 				</div>
 				<div class="profile-content pull-left">
 					<div class="subsection">
@@ -49,18 +50,52 @@
 
 	<div id="works">	
        <div class="section l-constrained">
-			<div class="section-title">works</div>
-		</div>
-	</div>
-	<div id="contact">	
-       <div class="section l-constrained">
-			<div class="section-title">contact</div>
-			<div class="section-content clearfix">
-				<div class="subsection">
-					<imput type="text" class="text-email" value="makoto.sato.climer@gmail.com" readonly="readonly">
+			<div class="section-title">Works</div>
+				<div class="section-content clearfix">
+					<div class="subsection">
+						<p style="text-align:center;">今までの成果物です<br>画像をクリックすると詳細が表示されます</p>
+					</div>
+					<div class="subsection ">
+						<ul class ="products  horizontal-list clerfix">
+							<li class="pull-left"><img id="portfolio" src="images/portfolio.jpg" alt=""></li>
+				       </ul>
+					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+	<div id="product-portfolio" class="section section-product product-portfolio" style="display:none;">
+		<div class="l-constrainedf">
+			<h1 class="section-title">Portfolio site</h1>
+			<div class="section-content">
+				<ul class="product-info clearfix">
+					<li>
+						<p class="field pull-left">URL</p>
+						<p class="description pull-left"><a href="https://nodetestby-makoto.glitch.me/">https://nodetestby-makoto.glitch.me/</a></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="contact">
+        <div class="section section-contact">
+		   <div class="section l-constrained">
+				<div class="section-title">Contact</div>
+				<div class="section-content clearfix">
+					<div class="subsection">
+						<input type="text" class="text-email" value="makoto.sato.climer@gmail.com" readonly="readonly" />
+					</div>
+					<div class="subsection">
+						<p style="font-size:30px;">or</p>
+					</div>
+					<div class="subsection">
+						<a href="https://github.com/makoto3333" class="">github</a>
+					</div>
+				</div>
+			</div>
+	</div>
 	</div>
 <div>
 <% include footer %>
