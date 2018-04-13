@@ -5,15 +5,15 @@
 <script type="text/javascript" src="/javascripts/lib/bootstrap/dist/js/bootstrap.min.js"></script>
 <link href="/javascripts/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="/javascripts/app/index.js"></script>
+<link rel="stylesheet" type="text/css" href="/stylesheets/font/LigatureSymbols/style.css">
 
 <section>		   
 	<div  id="home"class="row indexnavbar navbar-dark bg-dark ">
 		<ul class="nav nav-tabs col-12 nav-justified">
-			<li class="nav-item"><a href="#home" class="nav-link" >Home<link rel=" icon" href="/images/home.jpeg">
-</a></li>
-			<li class="nav-item"><a href="#profile" class="nav-link" >Profile</a></li>
-			<li class="nav-item"><a href="#works" class="nav-link" >Works</a></li>
-			<li class="nav-item"><a href="#contact" class="nav-link" >Contact</a></li>
+			<li class="nav-item"><a href="#home" class="nav-link lsf-icon" title="home">Home</a></li>
+			<li class="nav-item"><a href="#profile" class="nav-link lsf-icon" title="user">Profile</a></li>
+			<li class="nav-item"><a href="#works" class="nav-link lsf-icon" title="pen">Works</a></li>
+			<li class="nav-item"><a href="#contact" class="nav-link lsf-icon" title="mail">Contact</a></li>
 		</ul>
 	</div>
 </section>
@@ -21,7 +21,7 @@
 <div class="l-main">
 	<div id="profile">
        <div class="section l-constrained">
-			<div class="section-title">Profile</div>
+			<div class="section-title lsf-icon" title="user">Profile</div>
 			<div class="section-content clearfix">
 				<div class="profile-icon pull-left">
 					<img id="gaermg" src="images/selfImage.jpeg" class="icon-large" alt="">
@@ -50,7 +50,7 @@
 
 	<div id="works">	
        <div class="section l-constrained">
-			<div class="section-title">Works</div>
+			<div class="section-title lsf-icon" title="pen">Works</div>
 				<div class="section-content clearfix">
 					<div class="subsection">
 						<p style="text-align:center;">今までの成果物です<br>画像をクリックすると詳細が表示されます</p>
@@ -68,10 +68,18 @@
 		<div class="l-constrainedf">
 			<h1 class="section-title">Portfolio site</h1>
 			<div class="section-content">
-				<ul class="product-info clearfix">
-					<li>
+				<ul class="product-info">
+					<li class="clearfix">
 						<p class="field pull-left">URL</p>
 						<p class="description pull-left"><a href="https://nodetestby-makoto.glitch.me/">https://nodetestby-makoto.glitch.me/</a></p>
+					</li>
+					<li class="clearfix">
+						<p class="field pull-left">ソースコード</p>
+						<p class="description pull-left"><a href="https://github.com/makoto3333/Node">https://github.com/makoto3333/Node</a></p>
+					</li>
+					<li class="clearfix">
+						<p class="field pull-left">説明</p>
+						<p class="description pull-left">このサイトです。おもにNode、Bootstrap、jQueryで実現しています。初作品なので製作して公開するのに4日ほどかかりました。</p>
 					</li>
 				</ul>
 			</div>
@@ -82,16 +90,10 @@
 	<div id="contact">
         <div class="section section-contact">
 		   <div class="section l-constrained">
-				<div class="section-title">Contact</div>
+				<div class="section-title lsf-icon" title="mail">Contact</div>
 				<div class="section-content clearfix">
 					<div class="subsection">
 						<input type="text" class="text-email" value="makoto.sato.climer@gmail.com" readonly="readonly" />
-					</div>
-					<div class="subsection">
-						<p style="font-size:30px;">or</p>
-					</div>
-					<div class="subsection">
-						<a href="https://github.com/makoto3333" class="">github</a>
 					</div>
 				</div>
 			</div>
